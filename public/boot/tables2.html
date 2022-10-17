@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="user2.css">
+    <link rel="stylesheet" href="icons-1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="HomePage.css">
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="wrapper">
+
+
+        <div class="body-overlay"></div>
+
+
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><img src="assets/img/logo.png" class="img-fluid " style="width: 20px;">
+                    <span class="" style="color: #012970 ; font-size:22px ;">Quick</span>
+                </h3>
+            </div>
+            <ul class="list-unstyled components ">
+                <li class="list-unstyled components ">
+                    <a href="user2.html" class="dashboard links p-2" style="color: #012970 ;"><span class=""> <i
+                                class="bi bi-person-circle"></i>Profile</span></a>
+                </li>
+                <hr class="" style="height: 0.1em; color: blanchedalmond;">
+
+
+
+
+
+
+                <li class="list-unstyled components menu  "><a href=""
+                        style="color: #012970 ;font-family: 'Poppins',sans-serif;"><i class="bi bi-grid"></i>
+                        My Advertisements
+                        <span class="bi bi-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li class="menu active"><a href="tables2.html">All Advertisements</a></li>
+                        <li class=" menu "><a href="#">Create New</a>
+                        </li>
+                    </ul>
+                </li>
+                <hr class="" style="height: 0.1em; color: blanchedalmond;">
+                <li class="list-unstyled components menu "><a href=""
+                        style="color: #012970 ;font-family: 'Poppins',sans-serif;"><i class="bi bi-grid"></i>
+                        My Auctions
+                        <span class="bi bi-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li class=" menu"><a href="auctionTableUser.html"> All
+                                Auction</a> </li>
+                        <li class=" menu"><a href="ceateAuctionUser.html">Create
+                                New</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <hr class="" style="height: 0.1em; color: blanchedalmond;">
+
+                <li class="list-unstyled components menu "><a href=""
+                        style="color: #012970 ;font-family: 'Poppins',sans-serif;">
+                        <i class="bi bi-heart"></i>
+                        My Favorites
+                        <span class="bi bi-chevron-down"></span>
+                    </a>
+                    <ul class="nav child_menu">
+                        <li class=" menu"><a href="favoritePage.html">Advertisements</a></li>
+                        <li class="menu"><a href="favoritePage.html">Auctions</a>
+                        </li>
+                    </ul>
+                </li>
+                <hr class="" style="height: 0.1em; color: blanchedalmond;">
+
+                <li class="list-unstyled components">
+                    <a href="" style="color: #012970 ;font-family: 'Poppins',sans-serif;"><i class="bi bi-lock"></i>Log
+                        out</a>
+                </li>
+
+
+            </ul>
+
+
+
+        </nav>
+
+
+
+
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <div class="top-navbar  ">
+                <nav class="navbar navbar-expand-lg usernav " style="background-color:white ; height: 67.5px;">
+                    <div class="container-fluid ">
+
+
+                        <div class="collapse navbar-collapse d-lg-block d-xl-block d-sm-none d-md-none d-none"
+                            id="navbarSupportedContent">
+                            <ul class="nav navbar-nav ms-5">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="HomePage.html"
+                                        style="color:#012970; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="HomePage.html #about"
+                                        style="color:#012970; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                        About
+                                    </a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="products.html"
+                                        style="color:#012970; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                        Advertisements
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"
+                                        style="color:#012970; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                        Auctions
+                                    </a>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user-img w-25">
+                        <img src="imgs/user.png" class="container-fluid w-25"><span class="name-user "
+                            style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #012970;">Norhan
+                            Sabry</span>
+                    </div>
+                </nav>
+            </div>
+
+
+            <div class="main-content bg-white " style="padding:20px ">
+                <!--tabs--------------->
+                <div class="container ">
+
+
+                    <div class="tab-content">
+                        <div class="tab-pane active m-1 " id="All">
+
+
+                            <div class="row border g-0 rounded shadow-sm">
+                                <!-- column -->
+                                <div class="col-12  text-center  ">
+
+                                    <table class="table   "
+                                        style="background-color: rgb(200 200 200 / 20%); border-radius: 15px;">
+                                        <thead class="thu">
+                                            <tr class="">
+
+                                                <th scope="col">Title</th>
+                                                <th scope="col">Description</th>
+                                                <th scope="col">Category</th>
+                                                <th scope="col">Price</th>
+                                                <th scope="col">Conditions</th>
+                                                <th scope="col">Is-active</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Image</th>
+                                                <th scope="col">Actions</th>
+
+                                            </tr>
+
+                                        </thead>
+                                        <tbody>
+                                            <tr style="font-family: Montserrat, sans-serif; color: #455a64; font-weight: 400 ;"
+                                                class="">
+
+                                                <td class="p-4">Norhan Sabry</td>
+                                                <td class="p-4">Good</td>
+                                                <td class="p-4"> Clothes</td>
+
+                                                <td class="p-4">550 LE</td>
+                                                <td class="p-4">New</td>
+                                                <td class="p-4">Active</td>
+                                                <td class="p-4">Pending</td>
+                                                <td><img src="imgs/user.png"
+                                                        class="  img-fluid img-circle  user-image p-2">
+                                                </td>
+                                                <td class="p-4"> <span class="btn btn-info text-white"><i
+                                                            class="bi bi-pencil p-1">Edit</i></span>
+                                                    <span class="btn btn-danger"><i class="bi bi-trash"></i>
+                                                        Delete</span>
+                                                </td>
+
+
+                                            </tr>
+                                            <tr style="font-family: Montserrat, sans-serif; color: #455a64; font-weight: 400 ;"
+                                                class="">
+
+                                                <td class="p-4">Norhan Sabry</td>
+                                                <td class="p-4">Good</td>
+                                                <td class="p-4"> Clothes</td>
+
+                                                <td class="p-4">550 LE</td>
+                                                <td class="p-4">New</td>
+                                                <td class="p-4">Active</td>
+                                                <td class="p-4">Pending</td>
+                                                <td><img src="imgs/user.png"
+                                                        class="  img-fluid img-circle  user-image p-2">
+                                                </td>
+                                                <td class="p-4"> <span class="btn btn-info text-white"><i
+                                                            class="bi bi-pencil p-1">Edit</i></span>
+                                                    <span class="btn btn-danger"><i class="bi bi-trash"></i>
+                                                        Delete</span>
+                                                </td>
+                                            </tr>
+                                            <tr style="font-family: Montserrat, sans-serif; color: #455a64; font-weight: 400 ;"
+                                                class="">
+
+                                                <td class="p-4">Norhan Sabry</td>
+                                                <td class="p-4">Good</td>
+                                                <td class="p-4"> Clothes</td>
+
+                                                <td class="p-4">550 LE</td>
+                                                <td class="p-4">New</td>
+                                                <td class="p-4">Active</td>
+                                                <td class="p-4">Pending</td>
+                                                <td><img src="imgs/user.png"
+                                                        class="  img-fluid img-circle  user-image p-2">
+                                                </td>
+                                                <td class="p-4"> <span class="btn btn-info text-white"><i
+                                                            class="bi bi-pencil p-1">Edit</i></span>
+                                                    <span class="btn btn-danger"><i class="bi bi-trash"></i>
+                                                        Delete</span>
+                                                </td>
+                                            </tr>
+                                            <tr style="font-family: Montserrat, sans-serif; color: #455a64; font-weight: 400 ;"
+                                                class="">
+
+                                                <td class="p-4">Norhan Sabry</td>
+                                                <td class="p-4">Good</td>
+                                                <td class="p-4"> Clothes</td>
+
+                                                <td class="p-4">550 LE</td>
+                                                <td class="p-4">New</td>
+                                                <td class="p-4">Active</td>
+                                                <td class="p-4">Pending</td>
+                                                <td><img src="imgs/user.png"
+                                                        class="  img-fluid img-circle  user-image p-2">
+                                                </td>
+                                                <td class="p-4"> <span class="btn btn-info text-white"><i
+                                                            class="bi bi-pencil p-1">Edit</i></span>
+                                                    <span class="btn btn-danger"><i class="bi bi-trash"></i>
+                                                        Delete</span>
+                                                </td>
+                                            </tr>
+                                            <tr style="font-family: Montserrat, sans-serif; color: #455a64; font-weight: 400 ;"
+                                                class="">
+
+                                                <td class="p-4">Norhan Sabry</td>
+                                                <td class="p-4">Good</td>
+                                                <td class="p-4"> Clothes</td>
+
+                                                <td class="p-4">550 LE</td>
+                                                <td class="p-4">New</td>
+                                                <td class="p-4">Active</td>
+                                                <td class="p-4">Pending</td>
+                                                <td><img src="imgs/user.png"
+                                                        class="  img-fluid img-circle  user-image p-2">
+                                                </td>
+                                                <td class="p-4"> <span class="btn btn-info text-white"><i
+                                                            class="bi bi-pencil p-1">Edit</i></span>
+                                                    <span class="btn btn-danger"><i class="bi bi-trash"></i>
+                                                        Delete</span>
+                                                </td>
+                                            </tr>
+                                            <tr style="font-family: Montserrat, sans-serif; color: #455a64; font-weight: 400 ;"
+                                                class="">
+
+                                                <td class="p-4">Norhan Sabry</td>
+                                                <td class="p-4">Good</td>
+                                                <td class="p-4"> Clothes</td>
+
+                                                <td class="p-4">550 LE</td>
+                                                <td class="p-4">New</td>
+                                                <td class="p-4">Active</td>
+                                                <td class="p-4">Pending</td>
+                                                <td><img src="imgs/user.png"
+                                                        class="  img-fluid img-circle  user-image p-2">
+                                                </td>
+                                                <td class="p-4"> <span class="btn btn-info text-white"><i
+                                                            class="bi bi-pencil p-1">Edit</i></span>
+                                                    <span class="btn btn-danger"><i class="bi bi-trash"></i>
+                                                        Delete</span>
+                                                </td>
+                                            </tr>
+                                            <tr style="font-family: Montserrat, sans-serif; color: #455a64; font-weight: 400 ;"
+                                                class="">
+
+                                                <td class="p-4">Norhan Sabry</td>
+                                                <td class="p-4">Good</td>
+                                                <td class="p-4"> Clothes</td>
+
+                                                <td class="p-4">550 LE</td>
+                                                <td class="p-4">New</td>
+                                                <td class="p-4">Active</td>
+                                                <td class="p-4">Pending</td>
+                                                <td><img src="imgs/user.png"
+                                                        class="  img-fluid img-circle  user-image p-2">
+                                                </td>
+                                                <td class="p-4"> <span class="btn btn-info text-white"><i
+                                                            class="bi bi-pencil p-1">Edit</i></span>
+                                                    <span class="btn btn-danger"><i class="bi bi-trash"></i>
+                                                        Delete</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

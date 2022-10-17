@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="user2.css">
+    <link rel="stylesheet" href="icons-1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="HomePage.css">
+
+
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+
+        <div class="body-overlay"></div>
+
+
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><img src="assets/img/logo.png" class="img-fluid " style="width: 20px;">
+                    <span class="" style="color: #012970 ; font-size:22px ;">Quick</span>
+                </h3>
+            </div>
+            <ul class="list-unstyled components ">
+                <li class="list-unstyled components ">
+                    <a href="user2.html" class="dashboard links p-2" style="color: #012970 ;"><span class=""> <i
+                                class="bi bi-person-circle"></i>Profile</span></a>
+                </li>
+                <hr class="" style="height: 0.1em; color: blanchedalmond;">
+
+
+
+
+
+
+                <li class="list-unstyled components menu "><a href=""
+                        style="color: #012970 ;font-family: 'Poppins',sans-serif;"><i class="bi bi-grid"></i>
+                        My Advertisements
+                        <span class="bi bi-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li class=" menu"><a href="tables2.html">All Advertisements</a></li>
+                        <li class=" menu"><a href="#">Create
+                                New</a>
+                        </li>
+                    </ul>
+                </li>
+                <hr class="" style=" height: 0.1em; color: blanchedalmond;">
+                <li class="list-unstyled components menu "><a href=""
+                        style="color: #012970 ;font-family: 'Poppins',sans-serif;"><i class="bi bi-grid"></i>
+                        My Auctions
+                        <span class="bi bi-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li class=" components menu"><a href="auctionTableUser.html"> All Auction</a> </li>
+                        <li class=" components menu active"><a href="ceateAuctionUser.html">Create
+                                New</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <hr class="" style="height: 0.1em; color: blanchedalmond;">
+
+                <li class="list-unstyled components menu "><a href=""
+                        style="color: #012970 ;font-family: 'Poppins',sans-serif;"><i class="bi bi-heart"></i>
+                        My Favorites
+                        <span class="bi bi-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li class=" menu"><a href="favoritePage.html">Advertisements</a></li>
+                        <li class=" menu"><a href="favoritePage.html">Auctions</a>
+                        </li>
+                    </ul>
+                </li>
+                <hr class="" style="height: 0.1em; color: blanchedalmond;">
+
+                <li class="list-unstyled components">
+                    <a href="" style="color: #012970 ;font-family: 'Poppins',sans-serif;"><i class="bi bi-lock"></i>Log
+                        out</a>
+                </li>
+
+
+            </ul>
+
+
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class=" mb-5">
+
+            <div class="top-navbar  ">
+                <nav class="navbar navbar-expand-lg usernav " style="background-color:white ; height: 67.5px;">
+                    <div class="container-fluid ">
+
+
+                        <div class="collapse navbar-collapse d-lg-block d-xl-block d-sm-none d-md-none d-none"
+                            id="navbarSupportedContent">
+                            <ul class="nav navbar-nav ms-5">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="HomePage.html"
+                                        style="color:#012970; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="HomePage.html #about"
+                                        style="color:#012970; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                        About
+                                    </a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="products.html"
+                                        style="color:#012970; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                        Advertisements
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"
+                                        style="color:#012970; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                        Auctions
+                                    </a>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user-img w-25">
+                        <img src="imgs/user.png" class="container-fluid w-25"><span class="name-user "
+                            style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #012970;">Norhan
+                            Sabry</span>
+                    </div>
+                </nav>
+            </div>
+
+
+            <div class="main-content container p-5" style="background-color:whitesmoke;">
+
+
+                <div class="row">
+                    <div class="col-5 createInfo">
+
+                        <div class="mb-3 mt-5 ">
+                            <label for="Product Name:" class="form-label mt-5">Auction Name:</label>
+                            <input type="text" class="form-control" id="" placeholder="Enter Name">
+                        </div>
+
+
+
+                        <div class="mb-3 w-100">
+                            <label for="exampleFormControlTextarea1" class="form-label">Description:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                        </div>
+
+                        <p>
+                            <label for="date">Start date:</label>
+                            <input type="date" id="date">
+                        </p>
+
+                        <p>
+                            <label for="date">End date:</label>
+                            <input type="date" id="date">
+                        </p>
+
+                        <h6 class="mt-4">Auction Condition:</h6>
+                        <div class="form-check ">
+
+                            <input class="form-check-input p-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1">
+                            <label class="form-check-label p-0" for="flexRadioDefault1">
+                                New
+                            </label>
+
+
+                        </div>
+                        <div class="form-check ">
+                            <input class="form-check-input p-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault2" checked>
+                            <label class="form-check-label p-0" for="flexRadioDefault2">
+                                Used
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="col-7 mt-5 p-5 createInfo2 ">
+                        <h5> Select Cover Image for Your Auction</h5>
+                        <hr>
+
+
+                        <div class="input-group mb-3 w-75">
+
+                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <label class="input-group-text" for="inputGroupFile02">Upload Cover Image</label>
+                        </div>
+                        <!--- <img src="imgs/electronics.jpg" class=" w-25 rounded-2"> -->
+                        <h5 class="pt-3"> Select Images for Your Auction</h5>
+                        <hr>
+
+
+                        <div class="input-group mb-3 w-75">
+                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <label class="input-group-text" for="inputGroupFile02">Upload Images</label>
+                        </div>
+
+                        <div class="w-25  ">
+                            <label for="Product Price" class="form-label  ">Minmum Price:</label>
+                            <input type="text" class="form-control" id="" placeholder="30 LE">
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <div class="text-center p-2 mb-3">
+                    <button class="btn "
+                        style="background-color: #012970 ; color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                        Create New
+                        Auction</button>
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
